@@ -1,0 +1,13 @@
+[package]
+name = "wave_2d"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+netcdf = "0.11.0"
+minifb = "0.25"
+serde_json = "1.0"
+clap = { version = "4.4", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
