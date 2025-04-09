@@ -22,9 +22,9 @@ async fn main() -> Result<(), Box<dyn Error>> {
         "-i",
         "200",
         "-x",
-        "1",
+        "2",
         "-y",
-        "1",
+        "2",
     ];
     let args_string: Vec<String> = args.iter().map(|&s| String::from(s)).collect();
     let task_config: ControlBlock = ControlBlock::new(args_string);
